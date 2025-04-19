@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { useState, useEffect } from "react"
 import { postLogin, TOKEN, USERNAME } from "../kv";
 import { useNavigate, Link } from "react-router-dom";
-import logo from '../assets/schat.png'
+import logo from '../assets/logo1.png'
 
 export default function Login() {
 

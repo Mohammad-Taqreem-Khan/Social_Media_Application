@@ -5,6 +5,8 @@ const app = express();
 const port = process.env.port || 3000;
 const cors = require('cors');
 const socket = require('socket.io');
+const connectToMongo = require('./modules/db');
+
 
 // Controllers
 const userRoutes = require('./routes/userRoutes');
@@ -31,6 +33,7 @@ app.get('/', (req, res) => {
   res.json({status: true, msg: "server is working as expected"});
 })
 
+connectToMongo();
 
 // listen
 const server = app.listen(port, () => {
