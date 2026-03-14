@@ -8,17 +8,6 @@ This project is a real-time social media application designed to facilitate seam
 * **Follow System:** Displays a clean interface that lists all the users you are following and your followers, building a foundation for social connections.
 * **Notification System:** Alerts users in real-time when they receive a new follow or a message request, keeping them informed and engaged.
 
-## Screenshots
-*(Note: Create an `images` folder in your repository, upload your screenshots there, and ensure the file names match the paths below)*
-
-### Real-Time Chat Interface
-![Real-Time Chat Interface](./images/screenshot2.png)
-*Showcases a live messaging environment with typing indicators and instant message updates.*
-
-### Follow System Page
-![Follow System Page](./images/screenshot1.png)
-*Displays a clean interface listing all users being followed and followers.*
-
 ## Technology Stack
 * **MongoDB Atlas:** Cloud-based data storage used to securely house user profiles, chat logs, and application data.
 * **Express.js:** A secure server-side framework that handles routing, user authentication, and database communication.
